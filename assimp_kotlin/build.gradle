@@ -10,7 +10,7 @@ group = 'com.github.kotlin-graphics'
 dependencies {
 
 
-    implementation 'com.github.kotlin-graphics:uno-sdk:v0.7.3'
+    //implementation 'com.github.kotlin-graphics:uno-sdk:v0.7.3'
 
 //    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.10.0'
 //    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.10.0'
@@ -18,14 +18,15 @@ dependencies {
     implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
     implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
 
-    /* implementation "org.lwjgl:lwjgl:3.2.0"
-     implementation "org.lwjgl:lwjgl-glfw:3.2.0"
-     implementation "org.lwjgl:lwjgl-jemalloc:3.2.0"
-     implementation "org.lwjgl:lwjgl-openal:3.2.0"
-     implementation "org.lwjgl:lwjgl-opengl:3.2.0"
-     implementation "org.lwjgl:lwjgl-stb:3.2.0"
-     implementation "org.lwjgl:lwjgl-tootle:3.2.0"*/
+    implementation "org.lwjgl:lwjgl:3.2.0"
+    implementation "org.lwjgl:lwjgl-glfw:3.2.0"
+    implementation "org.lwjgl:lwjgl-jemalloc:3.2.0"
+    implementation "org.lwjgl:lwjgl-openal:3.2.0"
+    implementation "org.lwjgl:lwjgl-opengl:3.2.0"
+    implementation "org.lwjgl:lwjgl-stb:3.2.0"
+    implementation "org.lwjgl:lwjgl-tootle:3.2.0"
     implementation 'io.github.microutils:kotlin-logging:1.4.6'
+    implementation 'com.github.kotlin-graphics:assimp:64e30d6c73'
 
     /* if i open below code it will error this
     * Execution failed for task ':mytest:compileDebugJavaWithJavac'.
